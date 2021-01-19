@@ -76,4 +76,7 @@ public interface Constants {
     String VERONICA_SECUENCIAL_DOCUMENTO = "VERONICA_SECUENCIAL_DOCUMENTO";
     String VERONICA_NOMBRE_EMISOR = "VERONICA_NOMBRE_EMISOR";
 
+    int DEFAULT_PASSWORD_LENGTH = 12;
+    String VALID_PW_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+{}[]|:;<>?,./";
+
 }
