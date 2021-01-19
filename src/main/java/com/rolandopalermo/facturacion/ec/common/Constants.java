@@ -42,6 +42,7 @@ public interface Constants {
     String URI_API_V1 = URI_API_BASE + "/v1.0";
 
     // For users endpoints
+    String URI_API_V1_ADMIN = URI_API_V1 + "/admin";
     String URI_API_V1_INFO = URI_API_V1 + "/info";
     String URI_API_V1_INVOICING = URI_API_V1 + "/comprobantes";
     String URI_API_V1_USER = URI_API_V1 + "/usuarios";
