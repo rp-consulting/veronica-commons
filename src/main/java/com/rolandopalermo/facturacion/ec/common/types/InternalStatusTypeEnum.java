@@ -33,4 +33,10 @@ public enum InternalStatusTypeEnum {
                 .findFirst();
     }
 
+    public static Optional<InternalStatusTypeEnum> get(String value) {
+        return Stream.of(InternalStatusTypeEnum.values())
+                .filter(p -> p.description.compareToIgnoreCase(value) == 0)
+                .findFirst();
+    }
+
 }
