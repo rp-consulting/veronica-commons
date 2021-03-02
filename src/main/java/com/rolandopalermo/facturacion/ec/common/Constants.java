@@ -27,8 +27,10 @@ public interface Constants {
     String SWAGGER_RUC_EMPRESA = "Número de R.U.C. de la empresa";
     String SWAGGER_ID_EMISOR = "Identificación del emisor";
     String SWAGGER_ID_RECEPTOR = "Identificación del receptor";
-    String SWAGGER_FECHA_AUTORIZACION = "Fecha de autorización del comprobante";
+    String SWAGGER_FECHA_AUTORIZACION = "Fecha de emisión en formato ";
     String SWAGGER_ESTATUS_COMPROBANTE = "Estatus del comprobante";
+    String SWAGGER_RANGO_INICIAL="(Rango inicial)";
+    String SWAGGER_RANGO_FINAL="(Rango final)";
 
     String RUC_EMPRESA = "numero-ruc";
     String CLAVE_ACCESO = "clave-acceso";
