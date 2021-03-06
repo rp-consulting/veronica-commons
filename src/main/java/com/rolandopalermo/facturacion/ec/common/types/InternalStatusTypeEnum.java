@@ -10,7 +10,7 @@ public enum InternalStatusTypeEnum {
     APPLIED(3, "AUTORIZADO"),
     REJECTED(4, "RECHAZADO"),
     INVALID(5, "INVALIDO"),
-    ARCHIVED(6, "ANULAR");
+    ARCHIVED(6, "ANULADO");
 
     private long value;
     private String description;
