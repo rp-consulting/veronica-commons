@@ -49,6 +49,7 @@ public interface Constants {
     String URI_API_V1_INVOICING = URI_API_V1 + "/comprobantes";
     String URI_API_V1_USER = URI_API_V1 + "/usuarios";
     String URI_API_V1_USERS_SUPPLIER = URI_API_V1 + "/empresas";
+    String URI_API_V1_USERS_CUSTOMER = URI_API_V1 + "/clientes";
     String URI_API_V1_USERS_DASHBOARD = URI_API_V1_USERS_SUPPLIER + "/{numero-ruc}/dashboard";
 
     String URI_API_V1_OAUTH_TOKEN = URI_API_V1 + "/oauth/token";
